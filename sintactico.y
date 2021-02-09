@@ -30,7 +30,7 @@
  
 %%
 
-init: init main init | function { printf("Metodo inicial\n"); };
+init: init main init | function { printf("Metodo\n"); };
 function: function_type variable LPAREN function_rules RPAREN structure;
 function_rules: fun_declaration | /* empty */ ;
 function_type: VOID | type ;
@@ -41,9 +41,9 @@ declaration: type names asignacion;
 fun_declaration: type fun_var_names;
 fun_var_names: fun_var_names variable | variable COMMA type variable;
 asignacion: SEMI | ASSIGN expression SEMI | ASSIGN function_call SEMI;
-type: INT | CHAR ;
+type: INT | CHAR;
 names: variable | names COMMA variable;
-variable: ID ;
+variable: ID;
 function_call: reference variable LPAREN function_content RPAREN;
 function_content: function_content COMMA function_content | constant | variable | /* empty */ ;
 calls: calls call | call;
