@@ -1,0 +1,43 @@
+int holamundo(int test, int test2){
+    int perrson;
+    if(23 >= 345) {
+        fer = 12;
+    }
+}
+
+void main(){
+    int edgar;
+    char fer2;
+    int fer = 10;
+    int edgar5 = 9;
+    int fer3, edgar2, fer4;
+    holamundo(1, 2, fer);
+    if(fer == edgar5) {
+     edgar = 10;
+    } else if(edgar >= 3) {
+        if(23 >= 345){
+            fer = 12;
+        }
+      fer = 15;
+    }
+     
+    for(fer =1; fer<10; fer++) {
+        fer = 3;
+    }
+    
+    while(edgar< 10){
+        
+        fer=4;
+       
+        edgar++;
+    }
+    return ;
+    }
+    
+int holamundo2(int test, int test2){
+    int perrson;
+    if(23 >= 345) {
+        fer = 12;
+     }
+}
+    
