@@ -1,7 +1,6 @@
 #define SIZE 211
  
 #define MAXTOKENLEN 40
-
 #define UNDEF 0
 #define INT_TYPE 1
 #define CHAR_TYPE 2
@@ -9,7 +8,6 @@
  
 #define BY_VALUE 1
 #define BY_REFER 2
- 
 
 typedef struct Param{
     int par_type;
@@ -40,10 +38,8 @@ typedef struct list_t{
 
     struct list_t *next;
 }list_t;
- 
 
 static list_t **hash_table;
- 
 
 void init_hash_table(); 
 unsigned int hash(char *key); 
